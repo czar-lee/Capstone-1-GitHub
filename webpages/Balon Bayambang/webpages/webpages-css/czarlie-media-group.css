@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0; 
+}
+/*
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../../font/bebas-neue/BebasNeue-Regular.eot"),
+         url("../../font/bebas-neue/BebasNeue-Regular.otf") format("opentype"),
+         url("../../font/bebas-neue/BebasNeue-Regular.ttf"),
+         url("../../font/bebas-neue/BebasNeue-Regular.woff") format("woff"),
+         url("../../font/bebas-neue/BebasNeue-Regular.woff2");
+}
+*/
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+header {
+    background: rgb(66, 66, 66);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header div.img {
+    background: darkgrey;
+    background: url(../../../images/misc/code.jpg);
+    width: 70%;
+    height: 600px;
+    margin: auto;    
+}
+div#heading {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+    text-align: center;
+}
+div.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+img {
+
+}
+section#czar {
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    font-style: normal;
+}
+section.message {
+    color: rgb(53, 51, 51);
+    font: arial;
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+}
+div.button {
+    margin: auto;
+    text-align: center;
+}
+div.button a{
+    border: 2px solid rgb(53, 51, 51);
+    color: rgb(53, 51, 51);
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+}
+div.button a:hover {
+    background: rgb(53, 51, 51);
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+/* */
+div.wrapper {
+    margin: auto;
+    width: 80%;
+}
+div.block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div.img img {
+    background: pink;
+    flex-wrap: wrap;
+    width: 250px;
+    height: auto;
+    margin: 20px 50px;
+}
+div.name, div.description {
+    text-align: center;
+}
+div.bottom {
+    display: flex;
+    margin: auto;
+}
+/*contacts*/
+section.forms {
+    width: 70%;
+    margin: auto;
+}
+div.wrapper-forms {
+    margin: 20px;
+}
+div.infos {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+input#first-name {
+    float: left;
+    width: 49%;
+}
+input#last-name {
+    float: right;
+    width: 49%;
+}
+input {
+    width: 100%;
+    padding-bottom: 20px;
+}
+input#message {
+    padding-bottom: 60px;
+}
+input::placeholder {
+    font-size: 15px;
+    margin: auto;
+}
+div.button-contact a{
+    background: rgb(44, 41, 41);
+    color: white;
+    font-size: 13px;
+    padding: 10px 20px;
+}
+div.button-contact a:hover{
+    background: rgb(88, 88, 88);
+    color: white;
+    font-size: 13px;
+    padding: 10px 20px;
+}

@@ -1,0 +1,92 @@
+section.news-and-events-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+}
+div.block {
+    border: 1px solid lightgrey;
+    margin-top: 25px;
+}
+div.block img {
+    width: 350px;
+    height: 250px;
+}
+div#archives {
+    background-color: transparent;
+    color: rgb(70, 66, 68);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin: 35px 0px 05px 75px;
+}
+/*heading (tourism)*/
+div.heading {
+    margin: 10px 20px 20px 20px;
+    display: inline-block;
+    width: 310px;
+}
+div.maroon {
+}
+div.maroon span.maroon  {
+    font-size: 30px;
+    font-weight: bold; 
+}
+div.maroon a {
+    color: maroon;
+}
+div.maroon a:hover {
+    color: #EFD961;
+}
+div.read-more {
+    margin-top: 20px;
+}
+div.read-more a {
+    background-color: maroon;
+    color: white;
+    padding: 10px 20px;
+}
+div.read-more a:hover {
+    background-color: #EFD961;
+    color: #744150;
+    padding: 10px 20px;
+}
+/*End of head tourism*/
+/*bottom (tourism*/
+div.bottom {
+    border-top: 1px solid lightgrey;
+    margin: 20px 0px 20px 0px;
+}
+div.bottom span.date {
+    font-size: 12px;
+    padding-top: 25px;
+    margin-left: 20px;
+    color: grey;
+}
+div.bottom span.updated {
+    font-size: 12px;
+    margin-left: 20px;
+    padding-bottom: 25px;
+    color: grey;
+}
+div.older-posts {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+div.older-posts span {
+    color: maroon;
+    padding: 10px 10px;
+}
+div.older-posts a {
+    color: maroon;
+    padding: 10px 10px;
+}
+div.older-posts a:hover {
+    background-color: #EFD961;
+    color: #744150;
+    padding: 10px 10px;
+}

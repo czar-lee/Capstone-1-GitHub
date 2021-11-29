@@ -1,0 +1,103 @@
+section.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section.banner {
+    background-image: url("../../images/about-us/cloud\ \(copy\).bmp");
+    background-repeat: no-repeat;
+    padding: 130px 0px 130px 0px;
+}
+/*content - Officials*/
+div.headings, div.infos {
+    color: rgb(54, 53, 53);
+    line-height: 1.6;
+    margin-left: 40px;
+}
+div.infos ul, div.infos li {
+    color: rgb(54, 53, 53); 
+}
+div.wrapper-before-content {
+    width: 70%;
+}
+div.headings {
+    margin-top: 30px;
+}
+div.headings span.maroon{
+    color: maroon;
+    font-weight: thin;
+    font-size: 25px;
+}
+div.headings span#super-bold {
+    color: rgb(70, 66, 68);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/*
+div.infos img{
+    position: relative;
+    top: -620px;
+}*/
+
+/* The Nav thingy */
+section.nav-officials {
+    color: rgb(54, 53, 53);
+    margin-top: 130px;
+    padding: 0px 0px 0px 70px;
+}
+section.nav-officials ul {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+section.nav-officials ul li {
+    background: lightblue;
+    list-style-type: none;
+}
+section.nav-officials ul li a {
+    display: block;
+    background: maroon;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px 10px 20px;
+}
+section.nav-officials ul li a:hover {
+    background: rgb(239, 217, 97);
+    border: 1px solid maroon;
+    color: #744150;
+}
+div.block ol, li, ul, li{
+    color: black;
+}
+/*Councilors*/
+div.wrapper-before-content {
+    width: 70%;
+}
+div.images {
+    border-top: 2px solid grey;
+    margin-left: 80px;
+    justify-content: center;
+}
+div.images img {
+    width: 280px;
+}
+div.councilors span.maroon {
+    color: maroon;
+    font-size: 30px;
+    margin-left: 80px;
+}
+/*100 Days*/
+div.grey {
+    color: grey;
+    font-size: 50px;
+}
+div.li li.grey {
+    color: grey;
+    font-size: 50px;
+}
+ol li.grey {
+    color: grey;
+    font-size: 50px;
+}

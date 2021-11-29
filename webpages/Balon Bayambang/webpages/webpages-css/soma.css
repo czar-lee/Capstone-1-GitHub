@@ -1,0 +1,97 @@
+section.banner {
+    background-image: url("../../images/about-us/cloud\ \(copy\).bmp");
+    background-repeat: no-repeat;
+    padding: 130px 0px 130px 0px;
+    width: 100%;
+    margin: auto;
+}
+section.workspace {
+    width: 100%;
+    margin-top: -80px;
+}/*
+div.block {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}*/
+div.wrapper {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(211, 211, 211);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+div.block {
+    margin: 20px;
+}
+div.maroon {
+    color: maroon;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+div.grey, span.grey {
+    color: rgb(54, 53, 53);
+    font-weight: bold;
+    font-size: 20px;
+    font-stretch: semi-expanded;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+div.container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+div#twenty-eighteen{
+    padding-bottom: 10px;
+    width: 85%;
+}
+div.nav a{
+    background: maroon;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 15px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+div.nav a:hover {
+    background: #EFD961;
+    color: #744150;
+    padding: 5px 5px 5px 5px;
+}
+p {
+    color: rgb(54, 53, 53);
+    align-content: justify;
+    text-align: justify;
+}
+/*100 Days*/
+/*100 Days Lists*/
+div.wrapper {
+    width: 80%;
+    margin: auto;
+}
+div#grey {
+    color: rgb(54, 53, 53);
+    font-size: 40px;
+    font-weight: bold;
+}
+ol li.roman {
+    color: rgb(54, 53, 53);
+    font-size: 40px;
+    font-weight: bold;
+    list-style-type: upper-roman;
+}
+li.number {
+    color: rgb(54, 53, 53);
+    font-size: 40px;
+    font-weight: bold;
+}
+ul.disc li{
+    font-size: 17px;
+    list-style-type: disc;
+}
+ol.number li{
+    list-style-type: decimal;
+}

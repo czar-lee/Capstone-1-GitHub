@@ -1,0 +1,36 @@
+section.banner {
+    background-image: url("../../../../../images/tourism/reflection (3rd copy).jpg");
+    background-repeat: no-repeat;
+    padding: 130px 0px 130px 0px;
+    width: 100%;
+    margin: auto;
+}
+section.content {
+    background: white;
+    border: 1px grey solid;
+    width: 80%;
+    align-content: center;
+    margin: auto;
+    margin-top: -80px;
+}
+div.wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+span.title {
+    background-color: transparent;
+    color: rgb(70, 66, 68);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+span.date {
+    font-size: 12px;
+    padding-top: 25px;
+    color: grey;
+}
+div.wrapper-img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+}

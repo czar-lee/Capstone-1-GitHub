@@ -1,0 +1,56 @@
+div.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/*Magandang Banner*/
+section.banner {
+    background-image: url("../../images/about-us/cloud\ \(copy\).bmp");
+    background-repeat: no-repeat;
+    padding: 130px 0px 130px 0px;
+}
+/*The essay stuff*/
+section.paragraph{
+    width: 60%;
+    text-align: justify;
+    margin: 20px 0px 30px 100px;
+}
+h1.maroon {
+    color: maroon;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+p {
+    align-content: center;
+    color: rgb(54, 53, 53);
+    text-align: justify;
+}
+
+/*The Nav stuffs*/
+section.nav-about-us {
+    color: rgb(54, 53, 53);
+    margin-top: 130px;
+    padding: 0px 0px 0px 70px;
+}
+section.nav-about-us ul {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+section.nav-about-us ul li {
+    background: lightblue;
+    list-style-type: none;
+}
+section.nav-about-us ul li a {
+    display: block;
+    background: maroon;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px 10px 20px;
+}
+section.nav-about-us ul li a:hover {
+    background: #EFD961;
+    border: 1px solid maroon;
+    color: #744150;
+}

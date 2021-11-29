@@ -1,0 +1,40 @@
+div.wrapper {
+    margin: auto;
+    width: 80%;
+}
+div#citizen-heading-maroon {
+    color: maroon;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+table {
+    border: 1px solid grey;
+    border-radius: 13px;
+    border-collapse: collapse;
+    width: 100%;
+}
+th:first-child,th:nth-child(2), th:nth-child(3){
+    background: maroon;
+    color: white;
+}
+tr:nth-child(odd) {
+    background: #EAD3A8;
+}
+table a {
+    color: maroon;
+}
+table a:hover {
+    color: #484043;
+    text-decoration: underline;
+}
+div.table-headings tr th {
+    background: salmon;
+}
+tr, td, th {
+    border: 1px solid grey;
+    color: maroon;
+    padding: 10px;
+}

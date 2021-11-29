@@ -1,0 +1,83 @@
+section.banner {
+    background-image: url("../../../../../images/tourism/reflection (3rd copy).jpg");
+    background-repeat: no-repeat;
+    padding: 130px 0px 130px 0px;
+    width: 150%;
+    margin: auto;
+}
+section.articles {
+    background: white;
+    border: 1px grey solid;
+    width: 80%;
+    align-content: center;
+    margin: auto;
+    margin-top: -80px;
+}
+div.wrapper {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+div.wrapper p {
+    align-content: center;
+    color: rgb(54, 53, 53);
+    text-align: justify;
+}
+span.title {
+    background-color: transparent;
+    color: rgb(70, 66, 68);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+}
+span.date {
+    font-size: 12px;
+    padding-top: 25px;
+    color: grey;
+}
+span.pre-1 {
+    text-align: left;
+}
+span.next-1 {
+    text-align: right;
+}
+span.prev, span.next {
+    color: rgb(70, 66, 68);
+}
+span.prev-link a, span.next-link a {
+    color: maroon;
+}
+span.prev-link a:hover, span.next-link a:hover {
+    color: #EFD961;
+}
+span.prev-link a:active, span.next-link a:active {
+    color: #744150;
+    text-decoration: underline;
+}
+/*Thea*/
+div.ordinance-content {
+    text-align: center;
+}
+div.ordinance-content div#municipality-of-bayambang {
+    font-size: 20px;
+    font-weight: bold;
+}
+div.ordinance-content div#bayambang-pangasinan, div#enacted{
+    font-size: 15px;
+    font-weight: bold;
+}
+div.ordinance-content div.quote {
+    font-size: 30px;
+    font-weight: bold;
+}
+div.btn a {
+    background: maroon;
+    border: 1px solid grey;
+    color: white;
+    padding: 10px 20px;
+}
+div.btn a:hover {
+    background: #EFD961;
+    border: 1px solid grey;
+    color: #744150;
+    padding: 10px 20px;
+}
