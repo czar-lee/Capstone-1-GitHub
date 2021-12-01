@@ -1,10 +1,11 @@
 body {
     
-    font-family: Bebas Neue, cursive, Arial, Helvetica, sans-serif;
-    min-width: 400px;
+    font-family: "Bebas Neue", cursive, Arial, Helvetica, sans-serif;
+    min-width: 450px;
+    overflow: auto;
 }
 
-#about, #portfolio, #contact {
+#about, #portfolio {
     padding-top: 5rem;
 }
 
@@ -77,6 +78,16 @@ video {
 }
 
 /* Start of Navbar */
+.navbar-toggler-icon {
+    padding-top: 3px;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.navbar-toggler-icon:hover {
+    color: #fff;
+    background-color: #E85B77;
+}
 .navbar {  
     background-color: black;
     display: flex;
@@ -96,10 +107,6 @@ video {
 .about-text, .contact-content {
     text-align: center;
     text-decoration: #252934;
-}
-
-.about {
-    overflow: auto;
 }
 
 .about-content {
@@ -145,7 +152,6 @@ video {
 
 /* Start of Project Section */
 .portfolio {
-    height: 90vh;
     padding-bottom: 5rem;
     background: #f5f5f5;
     position: relative;
@@ -170,13 +176,7 @@ video {
 
 /* Contact */
 #contact {
-    height: 90vh;
-    padding: 7rem 3rem 0 3rem;
     background-color: #252934; 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    overflow: auto;
 }
 
 #send-message:hover {
@@ -189,7 +189,7 @@ video {
 footer {
     color: white;
     background-color: black;
-    height: 30vh;
+
 }
 
 #ten-fast-fingers a, #ten-fastfingers a:hover,

@@ -21,8 +21,6 @@
 
     <!-- Bootstrap Link -->
     <link rel="stylesheet" href="./css/css-bootsrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-    <script></script>
 </head>
 
 <body>
@@ -47,15 +45,15 @@
         <!-- End of Masthead -->
 
         <!-- Start of Navbar -->
-        <nav class="navbar sticky-top navbar-expand-lg" style="border-bottom: 3px solid #E85B77;">
+        <nav class="navbar sticky-top navbar-expand-sm" style="border-bottom: 3px solid #E85B77;">
             <div class="container">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-bars navbar-toggler-icon"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
-                        <a class="navbar-brand nav-link scrollto active ms-auto" href="#masthead">Czar Lee</a>
+                        <a class="navbar-brand nav-link" href="#masthead">Czar Lee</a>
                         <li class="nav-item">
                             <a class="nav-link scrollto" href="#about">About</a>
                         </li>
@@ -72,12 +70,12 @@
         <!-- End of Navbar -->
 
         <!-- About -->
-        <section class="about vh-100" id="about">
+        <section class="about" id="about">
             <h2 class="about-text display-4">About</h2>
             <div class="about-content">
-                <img class="about-czar-pic" src="./assets/czarliemagne-v1.jpeg"
+                <img class="about-czar-pic col-md-8" src="./assets/czarliemagne-v1.jpeg"
                     alt="Picture of Czarlie 'Czar Lee' Bambao">
-                <div class="skills-content">
+                <div class="skills-content col-md-4 col-sm-8">
                     <h2 class="about-skills display-4">
                         Skills
                     </h2>
@@ -86,23 +84,23 @@
                     <h3>Platforms</h3>
                     <p>Windows 7, 8, 10, Microsoft Office Suite, Libreoffice Suite, Google Suite, GitLab, and macOS
                         Monterey </p>
-                    <h3>Formating and Programming Languages and Frameworks</h3>
+                    <h3>Programming Skills</h3>
                     <p>HTML 5, CSS 3, Bootstrap, Java, and Git</p>
                     <h3>Other</h3>
                     <p>Data Entry, <a href="https://10fastfingers.com/user/2132915/" target="_blank"
                             id="touch-typist">Touch Typist
-                            (Average: 117 WPM)</a></p>
+                            (140 WPM)</a></p>
                 </div>
             </div>
         </section>
 
         <!-- Portfolio -->
         <section class="portfolio" id="portfolio">
-            <div class="portfolio-content">
+            <div class="portfolio-content container">
                 <h2 id="portfolio-text" class="display-4">Projects</h2>
                 <article class="d-flex justify-content-center">
-                    <div class="container row row-cols-1 row-cols-md-3 g-4 \" id="portfolio-container">
-                        <div class="col" id="balon-bayambang">
+                    <div class="container row row-cols-1 row-cols-md-3 g-4" id="portfolio-container">
+                        <div class="col-md-12 col-xl-4" id="balon-bayambang">
                             <a href="./webpages/Balon Bayambang/index.html" target="_blank">
                                 <div class="card h-100">
                                     <img src="./assets/masthead-of-bayambang.jpg" class="card-img-top rounded"
@@ -114,9 +112,9 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col" id="this-website-card">
+                        <div class="col-sm-10 col-md-12 col-xl-4" id="this-website-card">
                             <a href="#masthead">
-                                <div class="card h-100">
+                                <div class="card h-100 w-100">
                                     <img src="./assets/masthead.png" class="card-img-top"
                                         alt="Picture of this websites's masthead (pink sunset waves)">
                                     <div class="card-body">
@@ -126,10 +124,10 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col">
+                        <div class="col-md-12 col-xl-4">
                             <div class="card h-100">
                                 <img src="./assets/coming-soon-cursive.jpeg" class="card-img-top" alt="...">
-                                <div class="card-body">
+                                <div class="card-body" style="color: grey;">
                                     <h5 class="card-title">Capstone 2</h5>
                                     <p class="card-text">
                                         Coming soon next month!</p>
@@ -139,40 +137,44 @@
                     </div>
                 </article>
             </div>
-
         </section>
 
 
         <!-- Contact -->
-        <section class="contact-content" id="contact">
-            <div class="col-lg-6 position-relative text-white">
-                <h2 class="display-4">Contact</h2>
-                <h4 style="margin-top: -10px;">Have a question or want to work together?
-                    </h3>
-                    <form action="forms/contact.php" method="post" class="php-email-form position-absolute ">
-                        <div class="row gy-1 gx-1 top-100 start-50">
-                            <div class="col-md-6">
-                                <input type="text" name="name" class="form-control" placeholder="Name" required>
+        <section class="contact-content " id="contact">
+            <div class="row">
+                <div class="col-xl-6 col-lg-12 col-md-12 text-center text-white p-5">
+                    <h2 class="display-4">Contact</h2>
+                    <h4 style="margin-top: -10px;">Have a question or want to work together?
+                        </h3>
+                        <form action="forms/contact.php col-lg-12" method="post" class="php-email-form">
+                            <div class="row gy-1 gx-1">
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control" placeholder="Name" required>
+                                </div>
+                                <div class="col-md-6 ">
+                                    <input type="email" class="form-control" name="email" placeholder="Email" required>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject"
+                                        required>
+                                </div>
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                                        required></textarea>
+                                    <button class="btn btn-outline-light mt-2 w-100" type="submit"
+                                        id="send-message">Send
+                                        Message</button>
+                                </div>
                             </div>
-                            <div class="col-md-6 ">
-                                <input type="email" class="form-control" name="email" placeholder="Email" required>
-                            </div>
-                            <div class="col-md-12">
-                                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
-                            </div>
-                            <div class="col-md-12">
-                                <textarea class="form-control" name="message" rows="6" placeholder="Message"
-                                    required></textarea>
-                                <button class="btn btn-outline-light mt-2 w-100" type="submit" id="send-message">Send
-                                    Message</button>
-                            </div>
-                        </div>
-                    </form>
-            </div>
-            <div class="map col-md-6">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16386.186181247896!2d121.048582!3d14.638678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe15d2d6a4453ed00!2sZuitt%20QC!5e1!3m2!1sen!2sph!4v1637841404173!5m2!1sen!2sph"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </form>
+                </div>
+                <div class="map col-xl-6 col-lg-12 col-md-12 mb-5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16386.186181247896!2d121.048582!3d14.638678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe15d2d6a4453ed00!2sZuitt%20QC!5e1!3m2!1sen!2sph!4v1637841404173!5m2!1sen!2sph"
+                        width="100%" height="100%" style="border:0; padding: 2rem;" allowfullscreen=""
+                        loading="lazy"></iframe>
+                </div>
             </div>
         </section>
 
@@ -183,8 +185,7 @@
                     <br>
                     <span id="ten-fast-fingers">
                         <a target="_blank" href="https://10fastfingers.com/user/2132915/"><i
-                                class="bi bi-keyboard"></i></a>
-                    </span>
+                                class="fa fa-keyboard"></i></a></span>
                     <span id="gitlab"><a target="_blank" href="https://gitlab.com/czarlie_"><i
                                 class="fab fa-gitlab"></i></a></span>
                     <span id="github"><a target="_blank" href="https://github.com/czar-lee"><i
@@ -207,7 +208,7 @@
         </footer>
     </main>
 
-    <!-- Javascript Script -->
+    <!-- Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
         crossorigin="anonymous"></script>
